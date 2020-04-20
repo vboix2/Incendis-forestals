@@ -1,0 +1,409 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "black",
+      "default",
+      "blue",
+      "cyan",
+      "green",
+      "purple",
+      "red",
+      "yellow"
+    ],
+    "version": "2.15",
+    "sharedTheme": {
+      "isPortalSupport": false,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "https://vboix2.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Incendis forestals a Catalunya",
+  "subtitle": "",
+  "keepAppState": true,
+  "logo": "",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        },
+        "version": "2.15",
+        "id": "themes_FoldableTheme_widgets_HeaderController_Widget_1",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_Scalebar_Widget_2",
+        "name": "Scalebar",
+        "config": "configs/Scalebar/config_widgets_Scalebar_Widget_2.json"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 55,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_Search_Widget_3",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_Coordinate_Widget_4",
+        "name": "Coordinate"
+      },
+      {
+        "position": {
+          "left": 55,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_5"
+      },
+      {
+        "position": {
+          "left": 105,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_6"
+      },
+      {
+        "position": {
+          "left": 155,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 3,
+        "id": "_7"
+      },
+      {
+        "position": {
+          "left": 205,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 4,
+        "id": "_8"
+      },
+      {
+        "position": {
+          "left": 255,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 5,
+        "id": "_9"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "bottom": 0,
+          "right": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_OverviewMap_Widget_10",
+        "name": "OverviewMap",
+        "config": "configs/OverviewMap/config_widgets_OverviewMap_Widget_10.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_HomeButton_Widget_11",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_MyLocation_Widget_12",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.15",
+        "id": "widgets_AttributeTable_Widget_13",
+        "name": "AttributeTable",
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_13.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.15",
+        "id": "widgets_Splash_Widget_14",
+        "name": "Splash"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_ZoomSlider_Widget_15",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 190,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "id": "widgets_ExtentNavigate_Widget_16",
+        "name": "ExtentNavigate",
+        "version": "2.15"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "top": 150,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_FullScreen_Widget_17",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "52430fa6fb14425cad22888102aaf712",
+    "mapOptions": {
+      "extent": {
+        "xmin": -216.20332351629622,
+        "ymin": 4947394.205183975,
+        "xmax": 537900.4758040978,
+        "ymax": 5270264.212660544,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      "lods": [
+        {
+          "level": 0,
+          "scale": 4622324.434309,
+          "resolution": 1222.992452562495
+        },
+        {
+          "level": 2,
+          "scale": 2311162.217155,
+          "resolution": 611.4962262813797
+        },
+        {
+          "level": 3,
+          "scale": 1155581.108577,
+          "resolution": 305.74811314055756
+        },
+        {
+          "level": 4,
+          "scale": 577790.554289,
+          "resolution": 152.87405657041106
+        },
+        {
+          "level": 5,
+          "scale": 288895.277144,
+          "resolution": 76.43702828507324
+        },
+        {
+          "level": 6,
+          "scale": 144447.638572,
+          "resolution": 38.21851414253662
+        },
+        {
+          "level": 7,
+          "scale": 72223.819286,
+          "resolution": 19.10925707126831
+        },
+        {
+          "level": 8,
+          "scale": 36111.909643,
+          "resolution": 9.554628535634155
+        },
+        {
+          "level": 9,
+          "scale": 18055.954822,
+          "resolution": 4.77731426794937
+        },
+        {
+          "level": 10,
+          "scale": 9027.977411,
+          "resolution": 2.388657133974685
+        },
+        {
+          "level": 11,
+          "scale": 4513.988705,
+          "resolution": 1.1943285668550503
+        },
+        {
+          "level": 12,
+          "scale": 2256.994353,
+          "resolution": 0.5971642835598172
+        },
+        {
+          "level": 13,
+          "scale": 1128.497176,
+          "resolution": 0.29858214164761665
+        },
+        {
+          "level": 14,
+          "scale": 564.248588,
+          "resolution": 0.14929107082380833
+        },
+        {
+          "level": 15,
+          "scale": 282.124294,
+          "resolution": 0.07464553541190416
+        },
+        {
+          "level": 16,
+          "scale": 141.062147,
+          "resolution": 0.03732276770595208
+        },
+        {
+          "level": 17,
+          "scale": 70.5310735,
+          "resolution": 0.01866138385297604
+        }
+      ]
+    },
+    "id": "map",
+    "portalUrl": "https://vboix2.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.15",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 0
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.15",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 1
+      }
+    ]
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": {
+        "widgets/Scalebar/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 40
+          },
+          "version": "1.4"
+        },
+        "widgets/Coordinate/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 17
+          },
+          "version": "1.4"
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.15",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "url": "https://localhost:3344/proxy.js"
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  }
+}
