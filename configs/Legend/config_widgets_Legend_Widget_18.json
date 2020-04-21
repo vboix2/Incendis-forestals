@@ -1,0 +1,65 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "NOAA_METAR_current_wind_speed_direction_v1_8525": {
+      "selected": true
+    },
+    "Incendis_forestals_9324": {
+      "selected": true
+    },
+    "Cremes_prescrites_1081": {
+      "selected": true
+    },
+    "XEMA_6372": {
+      "selected": false
+    },
+    "Aigua_9752": {
+      "selected": false
+    },
+    "Rius_2163": {
+      "selected": false
+    },
+    "TeselaEspana_WFL1_2468": {
+      "selected": true
+    },
+    "ZHR_6550": {
+      "selected": true
+    },
+    "wms_6618": {
+      "selected": false
+    },
+    "wms_5694": {
+      "selected": false
+    },
+    "wms_377": {
+      "selected": false
+    },
+    "wms_463": {
+      "selected": false
+    },
+    "wms_9115": {
+      "selected": false
+    },
+    "wms_347": {
+      "selected": false
+    },
+    "wms_8343": {
+      "selected": false
+    },
+    "wms_5172": {
+      "selected": false
+    },
+    "wms_4874": {
+      "selected": false
+    },
+    "Terrain_5119": {
+      "selected": false
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

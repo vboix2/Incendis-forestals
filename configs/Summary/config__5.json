@@ -1,0 +1,18 @@
+{
+  "displayCluster": false,
+  "showFeatureCount": true,
+  "featureCountLabel": "Nombre d'incendis",
+  "summaryLayer": {
+    "fields": [
+      {
+        "type": "SUM",
+        "label": "",
+        "field": "HECTAREES"
+      }
+    ],
+    "id": "Incendis_forestals_9324",
+    "name": "Incendis forestals",
+    "filterField": "",
+    "url": "Incendis_forestals_9324"
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "taskOper": "AND",
+  "groupByLayer": false,
+  "zoomto": false,
+  "zoombackto": false,
+  "allowCustom": false,
+  "allowResetAll": false,
+  "allowTurnOffAll": false,
+  "filters": [
+    {
+      "layerId": "Incendis_forestals_9324",
+      "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/Incendis_forestals/FeatureServer/0",
+      "name": "Incendis per data",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "YEAR",
+              "label": "YEAR",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "YEAR és",
+              "hint": "",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "MONTH",
+              "label": "MONTH",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "MONTH és",
+              "hint": "",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": true,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Incendis_forestals_9324",
+      "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/Incendis_forestals/FeatureServer/0",
+      "name": "Incendis per superfície cremada",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "HECTAREES",
+              "label": "HECTAREES",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsGreaterThan",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Hectàrees cremades és més gran que",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "HECTAREES",
+              "label": "HECTAREES",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsLessThan",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Hectàrees cremades és menys que",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": true,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Incendis_forestals_9324",
+      "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/Incendis_forestals/FeatureServer/0",
+      "name": "Incendis per índex de perill",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "PERILL_EXP",
+              "label": "PERILL_EXP",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Perill expert és",
+              "hint": "",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "PERILL_IND",
+              "label": "PERILL_IND",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Perill d'incendi tipus és",
+              "hint": "",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": true,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Incendis_forestals_9324",
+      "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/Incendis_forestals/FeatureServer/0",
+      "name": "Incendis per situació meteorològica (a partir del 2009)",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TEMPERATUR",
+              "label": "TEMPERATUR",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsGreaterThan",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Temperatura màxima (ºC) superior a",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "PRECIPITAC",
+              "label": "PRECIPITAC",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsGreaterThan",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Precipitació acumulada (mm) superior a",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "PRECIPITAC",
+              "label": "PRECIPITAC",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsLessThan",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Precipitació acumulada (mm) inferior a",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "HUMITAT",
+              "label": "HUMITAT",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsGreaterThan",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Humitat relativa (%) superior a",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "VENT",
+              "label": "VENT",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsGreaterThan",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Intensitat del vent (m/s) superior a",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": true,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    }
+  ]
+}

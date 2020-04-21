@@ -1,0 +1,333 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "Incendis_forestals_9324",
+      "mode": "count",
+      "name": "Nombre d'incendis per any",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "column",
+          "display": {
+            "colors": [
+              "#6495ed"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": true
+          }
+        }
+      ],
+      "categoryField": "YEAR",
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "displaySQL": "1=1",
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "Incendis_forestals_9324",
+      "mode": "count",
+      "name": "Nombre d'incendis per mes",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "column",
+          "display": {
+            "colors": [
+              "#6495ed"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": true
+          }
+        }
+      ],
+      "categoryField": "MONTH",
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "displaySQL": "1=1",
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "Incendis_forestals_9324",
+      "mode": "count",
+      "name": "Nombre d'incendis per índex de perill",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "column",
+          "display": {
+            "colors": [
+              "#6495ed"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "categoryField": "PERILL_EXP",
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "displaySQL": "1=1",
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "Incendis_forestals_9324",
+      "mode": "category",
+      "name": "Hectàrees cremades per any",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "column",
+          "display": {
+            "colors": [
+              "#f4a460"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "categoryField": "YEAR",
+      "operation": "sum",
+      "valueFields": [
+        "HECTAREES"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "displaySQL": "1=1",
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "Incendis_forestals_9324",
+      "mode": "category",
+      "name": "Hectàrees cremades per mes",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "column",
+          "display": {
+            "colors": [
+              "#f4a460"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "categoryField": "MONTH",
+      "operation": "sum",
+      "valueFields": [
+        "HECTAREES"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "displaySQL": "1=1",
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "Incendis_forestals_9324",
+      "mode": "category",
+      "name": "Hectàrees cremades per índex de perill",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "column",
+          "display": {
+            "colors": [
+              "#f4a460"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "categoryField": "PERILL_EXP",
+      "operation": "sum",
+      "valueFields": [
+        "HECTAREES"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    }
+  ]
+}

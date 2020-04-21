@@ -1,0 +1,126 @@
+{
+  "comment": "Do not change lyr_types unless you have the widget JS code to support them",
+  "geocodeService": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+  },
+  "enableRouting": false,
+  "special_layer": {
+    "label": "Weather",
+    "value": "weather",
+    "url": "http://coolmaps.esri.com/Weather/info.php?v=1"
+  },
+  "bufferLabel": "Distància d'àrea d'influència",
+  "bufferRange": {
+    "minimum": 1,
+    "maximum": 5
+  },
+  "distanceUnits": "kilometers",
+  "distanceSettings": {
+    "miles": 9035,
+    "kilometers": 9036,
+    "feet": 9002,
+    "meters": 9001,
+    "yards": 9037,
+    "nauticalMiles": 9030
+  },
+  "maxDistance": "80",
+  "defaultZoomLevel": 13,
+  "disableLayerManagement": false,
+  "tabs": [
+    {
+      "label": "Weather",
+      "type": "weather",
+      "layers": "",
+      "url": "http://coolmaps.esri.com/Weather/info.php?v=1"
+    },
+    {
+      "label": "Índex de perill",
+      "type": "summary",
+      "layers": "ZHR_6550",
+      "title": "Zones homogènies",
+      "advConfig": {
+        "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/ZHR/FeatureServer/0",
+        "fields": [
+          {
+            "value": 0,
+            "type": "avg",
+            "expression": "PERILL_EXP",
+            "label": "Índex de perill expert"
+          },
+          {
+            "value": 0,
+            "type": "avg",
+            "expression": "PERILL_IND",
+            "label": "Índex de perill (incendi tipus)"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Altitud i pendent del terreny",
+      "type": "summary",
+      "layers": "TeselaEspana_WFL1_2468",
+      "title": "Caracterització del territori",
+      "advConfig": {
+        "url": "https://services1.arcgis.com/nCKYwcSONQTkPA4K/arcgis/rest/services/TeselaEspana_WFL1/FeatureServer/0",
+        "fields": [
+          {
+            "value": 0,
+            "type": "avg",
+            "expression": "Altura_MEAN",
+            "label": "Media de las alturas de la tesela"
+          },
+          {
+            "value": 0,
+            "type": "avg",
+            "expression": "Pendiente_MEAN",
+            "label": "Porcentaje medio de la pendiente de la tesela"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Superfície forestal (%)",
+      "type": "summary",
+      "layers": "TeselaEspana_WFL1_2468",
+      "title": "Caracterització del territori",
+      "advConfig": {
+        "url": "https://services1.arcgis.com/nCKYwcSONQTkPA4K/arcgis/rest/services/TeselaEspana_WFL1/FeatureServer/0",
+        "fields": [
+          {
+            "value": 0,
+            "type": "avg",
+            "expression": "ZONAS_FORESTALES",
+            "label": "Porcentaje de ZONAS FORESTALES en la tesela. Tipología de Corine Land Cover 2012"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Incendis anteriors",
+      "type": "closest",
+      "layers": "Incendis_forestals_9324",
+      "title": "Incendis forestals",
+      "advConfig": {
+        "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/Incendis_forestals/FeatureServer/0",
+        "fields": [
+          {
+            "value": 0,
+            "type": "out",
+            "expression": "MUNICIPI",
+            "label": "Municipi"
+          },
+          {
+            "value": 0,
+            "type": "out",
+            "expression": "DATA",
+            "label": "Data de l'incendi"
+          }
+        ]
+      }
+    }
+  ],
+  "incidentLabel": "Incendi",
+  "locateLabel": "Localitza l'incendi",
+  "celsius": true
+}
