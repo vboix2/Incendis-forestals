@@ -29,7 +29,7 @@
               "value": null
             },
             "interactiveObj": {
-              "prompt": "YEAR és",
+              "prompt": "Any",
               "hint": "",
               "cascade": "previous"
             },
@@ -50,7 +50,7 @@
               "value": null
             },
             "interactiveObj": {
-              "prompt": "MONTH és",
+              "prompt": "Mes",
               "hint": "",
               "cascade": "previous"
             },
@@ -195,7 +195,7 @@
               "value": null
             },
             "interactiveObj": {
-              "prompt": "Perill expert és",
+              "prompt": "Perill expert",
               "hint": "",
               "cascade": "previous"
             },
@@ -216,7 +216,7 @@
               "value": null
             },
             "interactiveObj": {
-              "prompt": "Perill d'incendi tipus és",
+              "prompt": "Perill d'incendi tipus",
               "hint": "",
               "cascade": "previous"
             },
