@@ -62,7 +62,7 @@
       },
       "icon": null,
       "enableMapFilter": true,
-      "autoApplyWhenWidgetOpen": true,
+      "autoApplyWhenWidgetOpen": false,
       "collapse": false,
       "symbol": {
         "color": [
@@ -145,7 +145,7 @@
       },
       "icon": null,
       "enableMapFilter": true,
-      "autoApplyWhenWidgetOpen": true,
+      "autoApplyWhenWidgetOpen": false,
       "collapse": false,
       "symbol": {
         "color": [
@@ -228,7 +228,7 @@
       },
       "icon": null,
       "enableMapFilter": true,
-      "autoApplyWhenWidgetOpen": true,
+      "autoApplyWhenWidgetOpen": false,
       "collapse": false,
       "symbol": {
         "color": [
@@ -374,7 +374,7 @@
       },
       "icon": null,
       "enableMapFilter": true,
-      "autoApplyWhenWidgetOpen": true,
+      "autoApplyWhenWidgetOpen": false,
       "collapse": false,
       "symbol": {
         "color": [
