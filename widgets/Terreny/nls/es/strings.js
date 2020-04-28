@@ -1,0 +1,20 @@
+define({
+  "_widgetLabel": "Terreno",
+  "topoLabel": "Topografía",
+  "terrainLabel": "Caracterización del terreno",
+  "waterLabel": "Masas de agua",
+  "elevationLabel": "Altitud, pendiente i orientación",
+  "orientationLabel": "Mapa de orientaciones",
+  "vegetationLabel": "Vegetación",
+  "flamLabel": "Modelos de inflamabilidad",
+  "treesLabel": "Variables biofísicas del arbolado",
+  "option0": "Área basal",
+  "option1": "Biomasa aérea total",
+  "option2": "Biomasa foliar",
+  "option3": "Carbonp aéreo total",
+  "option4": "Diámetro normal medio",
+  "option5": "Fracción de cabida cubierta",
+  "option6": "Altura media",
+  "option7": "Volumen con corteza",
+  "infoLabel": "Visible solo para escalas pequeñas"
+});

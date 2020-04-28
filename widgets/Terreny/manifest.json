@@ -1,0 +1,17 @@
+{
+  "name": "Terreny",
+  "platform": "HTML",
+  "version": "1.0",
+  "wabVersion": "2.15",
+  "author": "Víctor Boix",
+  "description": "Terreny i vegetació",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasConfig": false,
+    "hasStyle": true,
+    "hasLocale": true,
+    "hasUIFile": true,
+    "hasSettingPage": false
+  }
+}

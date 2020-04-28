@@ -1,0 +1,42 @@
+<div class="llista">
+      <h2>${nls.topoLabel}</h2>
+
+      <input type="checkbox" id="usos" data-dojo-type="dijit/form/CheckBox"
+      data-dojo-attach-event="onChange: BotoUsos">
+      <label for="usos"> ${nls.terrainLabel}*</label><br/>
+
+      <input type="checkbox" id="aigua" data-dojo-type="dijit/form/CheckBox"
+      data-dojo-attach-event="onChange: BotoAigua">
+      <label for="aigua"> ${nls.waterLabel}</label><br/>
+
+      <input type="checkbox" id="elevacions" data-dojo-type="dijit/form/CheckBox"
+      data-dojo-attach-event="onChange: BotoElevacions">
+      <label for="elevacions"> ${nls.elevationLabel}</label><br/>
+
+      <input type="checkbox" id="orientacions" data-dojo-type="dijit/form/CheckBox"
+      data-dojo-attach-event="onChange: BotoOrientacions">
+      <label for="orientacions"> ${nls.orientationLabel}*</label><br/><br/>
+
+      <h2>${nls.vegetationLabel}</h2>
+
+      <input type="checkbox" id="inflamabilitat" data-dojo-type="dijit/form/CheckBox"
+      data-dojo-attach-event="onChange: BotoInflamabilitat">
+      <label for="inflamabilitat"> ${nls.flamLabel}</label><br/>
+
+      <input type="checkbox" id="vegetacio" data-dojo-type="dijit/form/CheckBox"
+      data-dojo-attach-event="onChange: BotoVegetacio">
+      <label for="vegetacio"> ${nls.treesLabel}: </label><br/>
+      <select data-dojo-type="dijit/form/Select" data-dojo-attach-event="onChange: canviVegetacio"
+      data-dojo-attach-point="variables" class="select">
+            <option selected="selected" value="0">${nls.option0}</option>
+            <option value="1">${nls.option1}</option>
+            <option value="2">${nls.option2}</option>
+            <option value="3">${nls.option3}</option>
+            <option value="4">${nls.option4}</option>
+            <option value="5">${nls.option5}</option>
+            <option value="6">${nls.option6}</option>
+            <option value="7">${nls.option7}</option>
+      </select>
+      <br/>
+      <p>* ${nls.infoLabel}</p>
+</div>

@@ -1,0 +1,23 @@
+.llista{
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 3;
+    font-size: small;
+}
+
+label {
+    margin-left: 5px;
+}
+
+select {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: smaller;
+}

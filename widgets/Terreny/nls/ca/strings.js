@@ -1,0 +1,20 @@
+define({
+    "_widgetLabel": "Terreny",
+    "topoLabel": "Topografia",
+    "terrainLabel": "Caracterització del terreny",
+    "waterLabel": "Masses d'aigua",
+    "elevationLabel": "Altitud, pendent i orientació",
+    "orientationLabel": "Mapa d'orientacions",
+    "vegetationLabel": "Vegetació",
+    "flamLabel": "Models d'inflamabilitat",
+    "treesLabel": "Variables biofísiques de l'arbrat",
+    "option0": "Àrea basal",
+    "option1": "Biomassa aèria total",
+    "option2": "Biomassa foliar",
+    "option3": "Carboni aeri total",
+    "option4": "Diàmetre normal mitjà",
+    "option5": "Fracció de cabuda coberta",
+    "option6": "Alçada mitjana",
+    "option7": "Volum amb escorça",
+    "infoLabel": "Visible només per a escales petites"
+  });
