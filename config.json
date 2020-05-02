@@ -378,19 +378,11 @@
         "id": "widgets_Terreny_Widget_24"
       },
       {
-        "name": "Meteo",
-        "label": "Dades meteorològiques",
-        "version": "1.0",
-        "uri": "widgets/Meteo/Widget",
-        "index": 4,
-        "id": "widgets_Meteo_Widget_25"
-      },
-      {
         "name": "Filter",
         "version": "2.15",
         "uri": "widgets/Filter/Widget",
         "config": "configs/Filter/config_widgets_Filter_Widget_20.json",
-        "index": 5,
+        "index": 4,
         "id": "widgets_Filter_Widget_20",
         "label": "Filtre d'incendis"
       },
@@ -400,7 +392,7 @@
         "version": "2.15",
         "uri": "widgets/Chart/Widget",
         "config": "configs/Chart/config_widgets_Chart_Widget_21.json",
-        "index": 6,
+        "index": 5,
         "id": "widgets_Chart_Widget_21"
       },
       {
@@ -408,7 +400,7 @@
         "version": "2.15",
         "id": "widgets_Legend_Widget_18",
         "name": "Legend",
-        "index": 7,
+        "index": 6,
         "config": "configs/Legend/config_widgets_Legend_Widget_18.json"
       },
       {
@@ -416,7 +408,7 @@
         "version": "2.15",
         "uri": "widgets/About/Widget",
         "config": "configs/About/config_widgets_About_Widget_22.json",
-        "index": 8,
+        "index": 7,
         "id": "widgets_About_Widget_22"
       }
     ],
