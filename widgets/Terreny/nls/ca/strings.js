@@ -3,7 +3,7 @@ define({
     "topoLabel": "Topografia",
     "terrainLabel": "Caracterització del terreny",
     "waterLabel": "Masses d'aigua",
-    "elevationLabel": "Altitud, pendent i orientació",
+    "elevationLabel": "Altitud del terreny",
     "orientationLabel": "Mapa d'orientacions",
     "vegetationLabel": "Vegetació",
     "flamLabel": "Models d'inflamabilitat",

@@ -22,7 +22,7 @@ function(declare, BaseWidget,) {
       this.aigua = this.map.getLayer("Aigua_9752");
       this.rius = this.map.getLayer("Rius_2163");
       this.orientacions = this.map.getLayer("wms_4874");
-      this.elevacio = this.map.getLayer("Terrain_5119");
+      this.elevacio = this.map.getLayer("wms_4586");
       this.inflamabilitat = this.map.getLayer("wms_377");
       this.vegetacio = this.map.getLayer("wms_463");
     },

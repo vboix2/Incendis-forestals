@@ -1,5 +1,5 @@
 {
   "about": {
-    "aboutContent": "Víctor Boix<div><br /></div>"
+    "aboutContent": "<div><br /></div>Autor: Víctor Boix<div><br /></div><div>Treball Final del Màster en Ciència de Dades (UOC)<br /><div><br /></div><div>Directora: Anna Muñoz Bollas</div><div><br /></div><div>Fonts de dades:</div><div><ul><li>Fire Information for Resource Management Systems (NASA)</li><li>Departament d'Agricultura, Ramaderia, Pesca i Alimentació (Generalitat de Catalunya)</li><li>Departament d'Interior (Generalitat de Catalunya)</li><li>Departament de Territori i Sostenibilitat (Generalitat de Catalunya)</li><li>Esri Living Atlas</li><li>Institut Cartogràfic i Geològic de Catalunya</li><li>Agència Catalana de l'Aigua</li><li>Servei Meteorològic de Catalunya</li></ul><div><br /></div>Codi font: <a href=\"https://github.com/vboix2/Incendis-forestals\">https://github.com/vboix2/Incendis-forestals</a></div></div><div><br /></div><div>Contacte: vboix2@uoc.edu</div>"
   }
 }

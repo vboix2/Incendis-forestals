@@ -384,7 +384,7 @@
         "config": "configs/Filter/config_widgets_Filter_Widget_20.json",
         "index": 4,
         "id": "widgets_Filter_Widget_20",
-        "label": "Filtres"
+        "label": "Filtre d'incendis"
       },
       {
         "name": "Chart",

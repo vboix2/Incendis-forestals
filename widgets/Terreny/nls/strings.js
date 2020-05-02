@@ -4,7 +4,7 @@ define({
       topoLabel: "Topography",
       terrainLabel: "Terrain characterization",
       waterLabel: "Water",
-      elevationLabel: "Altitude, slope and orientation",
+      elevationLabel: "Terrain altitude",
       orientationLabel: "Orientation map",
       vegetationLabel: "Vegetation",
       flamLabel: "Flammability models",
