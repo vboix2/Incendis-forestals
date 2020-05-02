@@ -1,0 +1,31 @@
+.meteo {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: small;
+}
+
+.capa {
+    margin-bottom: 20px;
+    line-height: 2.5;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+label {
+    margin-left: 10px;
+}
+form {
+    padding-left: 20px;
+}
+
+td {
+    padding: 5px;
+}
+
+.metadades {
+    padding-top: 20px;
+    font-size: smaller;
+    line-height: 1;
+}
