@@ -3,7 +3,7 @@ define({
       _widgetLabel: "Meteorology",
       header1: "Meteorological data layers",
       header2: "Wildfire weather",
-      layer_weather: "Current values",
+      layer_weather: "Wind direction",
       layer_xdde: "Cloud-to-ground lightning (last 24h)",
       layer_xema: "Weather stations (XEMA)",
       layer_clima: "Climatic maps",

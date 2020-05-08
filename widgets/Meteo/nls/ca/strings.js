@@ -2,7 +2,7 @@ define({
     "_widgetLabel": "Meteorologia",
     "header1": "Capes d'informació meteorològica",
     "header2": "Situació meteorològica dels incendis",
-    "layer_weather": "Valors actuals",
+    "layer_weather": "Direcció del vent",
     "layer_xdde": "Llamps núvol-terra (darreres 24h)",
     "layer_xema": "Estacions meteorològiques (XEMA)",
     "layer_clima": "Mapes climàtics",
