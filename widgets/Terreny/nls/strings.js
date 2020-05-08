@@ -17,7 +17,7 @@ define({
       option5: "Fraction of covered capacity",
       option6: "Medium height",
       option7: "Volume with bark",
-      infoLabel: "Visible for small scales only"
+      infoLabel: "Visible for large scales only"
     }),
     "ca": 1,
     "es": 1

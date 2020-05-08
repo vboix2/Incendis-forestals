@@ -2,14 +2,14 @@
   "theme": {
     "name": "FoldableTheme",
     "styles": [
-      "black",
       "default",
-      "blue",
       "cyan",
+      "black",
+      "yellow",
       "green",
-      "purple",
+      "blue",
       "red",
-      "yellow"
+      "purple"
     ],
     "version": "2.15",
     "sharedTheme": {
@@ -106,7 +106,8 @@
         "version": "2.15",
         "closeable": true,
         "uri": "widgets/IncidentAnalysis/Widget",
-        "config": "configs/IncidentAnalysis/config__6.json"
+        "config": "configs/IncidentAnalysis/config__6.json",
+        "openAtStart": false
       },
       {
         "position": {

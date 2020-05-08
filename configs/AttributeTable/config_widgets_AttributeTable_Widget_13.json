@@ -1,5 +1,1142 @@
 {
-  "layerInfos": [],
+  "layerInfos": [
+    {
+      "name": "Meteorologia",
+      "id": "NOAA_METAR_current_wind_speed_direction_v1_8525",
+      "layer": {
+        "url": "https://services9.arcgis.com/RHVPKKiFTONKtxq3/arcgis/rest/services/NOAA_METAR_current_wind_speed_direction_v1/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "ICAO",
+            "alias": "Station Identification",
+            "show": false
+          },
+          {
+            "name": "OBS_DATETIME",
+            "alias": "Observation Date/Time",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "STATION_NAME",
+            "alias": "Station Name",
+            "show": true
+          },
+          {
+            "name": "COUNTRY",
+            "alias": "Country Name",
+            "show": false
+          },
+          {
+            "name": "ELEVATION",
+            "alias": "Station Elevation (Meters)",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TEMP",
+            "alias": "Air Temperature (°F)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DEW_POINT",
+            "alias": "Dew Point Temperature (°F)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "R_HUMIDITY",
+            "alias": "Relative Humidity (%)",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "WIND_SPEED",
+            "alias": "Wind Speed (km/h)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "WIND_DIRECT",
+            "alias": "Wind Origin (Degrees)",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "WIND_GUST",
+            "alias": "Wind Gust (km/h)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "WIND_CHILL",
+            "alias": "Wind Chill (°F)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "VISIBILITY",
+            "alias": "Horizontal Visibility (Meters)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PRESSURE",
+            "alias": "Altimeter Pressure (Millibars)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SKY_CONDTN",
+            "alias": "Sky Conditions",
+            "show": false
+          },
+          {
+            "name": "WEATHER",
+            "alias": "Weather Conditions",
+            "show": false
+          },
+          {
+            "name": "REMARKS",
+            "alias": "Remarks",
+            "show": false
+          },
+          {
+            "name": "HEAT_INDEX",
+            "alias": "Heat Feels Like (°F)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LATITUDE",
+            "alias": "Location Latitude (DD)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LONGITUDE",
+            "alias": "Location Longitude (DD)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "expression/expr0",
+            "alias": "WindGustCheck",
+            "show": true
+          },
+          {
+            "name": "expression/expr1",
+            "alias": "HumidityCheck",
+            "show": true
+          },
+          {
+            "name": "expression/expr2",
+            "alias": "Temperatura (ºC)",
+            "show": true
+          },
+          {
+            "name": "expression/expr3",
+            "alias": "Velocitat del vent (m/s)",
+            "show": true
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Incendis forestals",
+      "id": "Incendis_forestals_9324",
+      "layer": {
+        "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/Incendis_forestals/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "CODI",
+            "alias": "CODI",
+            "show": false
+          },
+          {
+            "name": "MUNICIPI",
+            "alias": "Municipi",
+            "show": true
+          },
+          {
+            "name": "DATA",
+            "alias": "Data de l'incendi",
+            "show": true,
+            "format": {
+              "dateFormat": "shortDateLE"
+            }
+          },
+          {
+            "name": "MONTH",
+            "alias": "MONTH",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "YEAR",
+            "alias": "YEAR",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "HECTAREES",
+            "alias": "Hectàrees cremades",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ZHR",
+            "alias": "Zona homogènia de règim d'incendis",
+            "show": false
+          },
+          {
+            "name": "PERILL_EXP",
+            "alias": "Índex de perill",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "PERILL_IND",
+            "alias": "PERILL_IND",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "ESTACIO_XE",
+            "alias": "ESTACIO_XE",
+            "show": false
+          },
+          {
+            "name": "PRECIPITAC",
+            "alias": "Precipitació acumulada (mm)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TEMPERATUR",
+            "alias": "Temperatura màxima (ºC)",
+            "show": false,
+            "format": {
+              "places": 1,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "HUMITAT",
+            "alias": "Humitat relativa (%)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "VENT",
+            "alias": "Intensitat del vent (m/s)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "expression/expr0",
+            "alias": "Situació meteorològica",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Cremes prescrites",
+      "id": "Cremes_prescrites_1081",
+      "layer": {
+        "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/Cremes_prescrites/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "ID",
+            "alias": "ID",
+            "show": false
+          },
+          {
+            "name": "DATA",
+            "alias": "DATA",
+            "show": true,
+            "format": {
+              "dateFormat": "shortDateLE"
+            }
+          },
+          {
+            "name": "HECTAREES",
+            "alias": "HECTAREES",
+            "show": true,
+            "format": {
+              "places": 1,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "YEAR",
+            "alias": "YEAR",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "MONTH",
+            "alias": "MONTH",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "OBJECTIU",
+            "alias": "OBJECTIU",
+            "show": true
+          },
+          {
+            "name": "TEV",
+            "alias": "TEV",
+            "show": true
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Estacions meteorològiques",
+      "id": "XEMA_6372",
+      "layer": {
+        "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/XEMA/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "CODI",
+            "alias": "CODI",
+            "show": true
+          },
+          {
+            "name": "ALTITUD",
+            "alias": "ALTITUD",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Masses d'aigua",
+      "id": "Aigua_9752",
+      "layer": {
+        "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/Aigua/FeatureServer/0"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Rius",
+      "id": "Rius_2163",
+      "layer": {
+        "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/Rius/FeatureServer/0"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Caracterització del territori",
+      "id": "TeselaEspana_WFL1_2468",
+      "layer": {
+        "url": "https://services1.arcgis.com/nCKYwcSONQTkPA4K/arcgis/rest/services/TeselaEspana_WFL1/FeatureServer/0",
+        "fields": [
+          {
+            "name": "Altura_MEAN",
+            "alias": "Media de las alturas de la tesela",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Altura_STD",
+            "alias": "Desviación típica de las alturas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Pendiente_MEAN",
+            "alias": "Porcentaje medio de la pendiente de la tesela",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Pendiente_STD",
+            "alias": "Desviación típica del porcentaje de pendiente",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Natura2000",
+            "alias": "Porcentaje de la red Natura 2000",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Buffer50",
+            "alias": "Porcentaje del buffer de 50 metros realizado sobre la red hidrográfica de la DMA",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Buffer100",
+            "alias": "Porcentaje del buffer de 100 metros realizado sobre la red hidrográfica de la DMA",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Buffer250",
+            "alias": "Porcentaje del buffer de 250 metros realizado sobre la red hidrográfica de la DMA",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ZONAS_FORESTALES",
+            "alias": "Porcentaje de ZONAS FORESTALES en la tesela. Tipología de Corine Land Cover 2012",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ZONAS_AGRICOLAS",
+            "alias": "Porcentaje de ZONAS AGRÍCOLAS en la tesela. Tipología de Corine Land Cover 2012",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ZONAS_HUMEDAS",
+            "alias": "Porcentaje de ZONAS HÚMEDAS en la tesela. Tipología de Corine Land Cover 2012",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SUPERFICIES_ARTIFICIALES",
+            "alias": "Porcentaje de SUPERFICIES ARTIFICIALES en la tesela. Tipología de Corine Land Cover 2012",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "AGUA",
+            "alias": "Porcentaje de AGUA en la tesela. Tipología de Corine Land Cover 2012",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine212",
+            "alias": "Corine2012_Terrenos regados permanentemente\n",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine213",
+            "alias": "Corine2012_Arrozales\n",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine211",
+            "alias": "Corine2012_Tierras de labor en secano",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine313",
+            "alias": "Corine2012_Bosque mixto",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine312",
+            "alias": "Corine2012_Bosques de coníferas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine311",
+            "alias": "Corine2012_Bosques de frondosas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine331",
+            "alias": "Corine2012_Playas, dunas y arenales",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine333",
+            "alias": "Corine2012_Espacios con vegetación escasa",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine332",
+            "alias": "Corine2012_Roquedo",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine133",
+            "alias": "Corine2012_Zonas en construcción",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine132",
+            "alias": "Corine2012_Escombreras y vertederos",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine131",
+            "alias": "Corine2012_Zonas de extracción minera",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine111",
+            "alias": "Corine2012_Tejido urbano continuo",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine112",
+            "alias": "Corine2012_Tejido urbano discontinuo",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine231",
+            "alias": "Corine2012_Praderas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine322",
+            "alias": "Corine2012_Landas y matorrales",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine323",
+            "alias": "Corine2012_Vegetación esclerófila",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine321",
+            "alias": "Corine2012_Pastizales naturales",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine521",
+            "alias": "Corine2012_Lagunas costeras",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine324",
+            "alias": "Corine2012_Matorral boscoso de transición",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine334",
+            "alias": "Corine2012_Zonas quemadas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine421",
+            "alias": "Corine2012_Marismas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine423",
+            "alias": "Corine2012_Zonas llanas intermareales",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine422",
+            "alias": "Corine2012_Salinas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine335",
+            "alias": "Corine2012_Glaciares y nieves permanentes",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine142",
+            "alias": "Corine2012_Instalaciones deportivas y recreativas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine522",
+            "alias": "Corine2012_Estuarios",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine141",
+            "alias": "Corine2012_Zonas verdes urbanas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine523",
+            "alias": "Corine2012_Mares y océanos",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine121",
+            "alias": "Corine2012_Zonas industriales o comerciales",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine122",
+            "alias": "Corine2012_Redes viarias, ferroviarias y terrenos asociados",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine123",
+            "alias": "Corine2012_Zonas portuarias",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine124",
+            "alias": "Corine2012_Aeropuertos",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine243",
+            "alias": "Corine2012_Terrenos principalmente agrícolas, pero con importantes espacios de vegetación natural",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine242",
+            "alias": "Corine2012_Mosaico de cultivos",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine223",
+            "alias": "Corine2012_Olivares",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine222",
+            "alias": "Corine2012_Frutales",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine221",
+            "alias": "Corine2012_Viñedos",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine244",
+            "alias": "Corine2012_Sistemas agroforestales",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine411",
+            "alias": "Corine2012_Humedales y zonas pantanosas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine412",
+            "alias": "Corine2012_Turberas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine511",
+            "alias": "Corine2012_Cursos de agua",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine241",
+            "alias": "Corine2012_Cultivos anuales asociados con cultivos permanentes",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Corine512",
+            "alias": "Corine2012_Láminas de agua",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GRID_ID",
+            "alias": "Identificador de la tesela",
+            "show": false
+          },
+          {
+            "name": "predominante",
+            "alias": "predominante",
+            "show": false
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "expression/expression0",
+            "alias": "Tipología Predominante",
+            "show": true
+          },
+          {
+            "name": "expression/expr0",
+            "alias": "Custom",
+            "show": true
+          },
+          {
+            "name": "expression/expr1",
+            "alias": "Custom",
+            "show": true
+          },
+          {
+            "name": "expression/expr47",
+            "alias": "Custom",
+            "show": true
+          },
+          {
+            "name": "expression/expr48",
+            "alias": "Custom",
+            "show": true
+          },
+          {
+            "name": "expression/expr49",
+            "alias": "Tipologia predominant",
+            "show": true
+          },
+          {
+            "name": "expression/expr50",
+            "alias": "Ús predominant del sòl",
+            "show": true
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "Altura_MEAN",
+      "isDescending": false
+    },
+    {
+      "name": "Zones homogènies",
+      "id": "ZHR_6550",
+      "layer": {
+        "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/ZHR/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "CODI",
+            "alias": "CODI",
+            "show": false
+          },
+          {
+            "name": "PERILL_EXP",
+            "alias": "Índex de perill expert",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "PERILL_IND",
+            "alias": "Índex de perill (incendi tipus)",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    }
+  ],
   "table": {
     "pageSizeOptions": [
       25,
@@ -8,9 +1145,9 @@
       1000
     ]
   },
-  "hideExportButton": true,
+  "hideExportButton": false,
   "initiallyExpand": false,
-  "filterByMapExtent": true,
-  "allowTextSelection": true,
+  "filterByMapExtent": false,
+  "allowTextSelection": false,
   "syncWithLayers": false
 }
