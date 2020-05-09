@@ -9,7 +9,7 @@
     "value": "weather",
     "url": "http://coolmaps.esri.com/Weather/info.php?v=1"
   },
-  "bufferLabel": "Distància d'àrea d'influència",
+  "bufferLabel": "2. Àrea d'influència",
   "bufferRange": {
     "minimum": 1,
     "maximum": 5
@@ -120,7 +120,7 @@
       }
     }
   ],
-  "incidentLabel": "Incendi",
-  "locateLabel": "Localitza l'incendi",
+  "incidentLabel": "Localització",
+  "locateLabel": "1. Localitza l'incendi",
   "celsius": true
 }

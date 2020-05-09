@@ -560,6 +560,7 @@ define([
         this.buffer = null;
         this.div_reversed_address.innerHTML = "";
         html.setStyle(this.div_reverse_geocoding, 'visibility', 'hidden');
+        html.setStyle(this.div_info_menu, 'visibility', 'hidden'); // Info
         for (var i = 1; i < this.config.tabs.length; i++) {
           if (dom.byId("tabPanel" + i)) {
             dom.byId("tabPanel" + i).innerHTML = this.nls.defaultTabMsg;
@@ -749,6 +750,7 @@ define([
         }
         this.div_reversed_address.innerHTML = "";
         html.setStyle(this.div_reverse_geocoding, 'visibility', 'hidden');
+        html.setStyle(this.div_info_menu, 'visibility', 'hidden');
       },
 
       // get incident address
@@ -774,25 +776,27 @@ define([
 
           // var str_complete_address = address + "</br>" + evt.address.address.City +
           //   ", " + evt.address.address.Region + " " + evt.address.address.Postal;
-          var str_complete_address = address + "</br>";
+          var str_complete_address = "";
           if (evt.address.address.City) {
-            str_complete_address += evt.address.address.City + ", ";
+            str_complete_address += evt.address.address.City;
           }
-          if (evt.address.address.Region) {
-            str_complete_address += evt.address.address.Region;
-          }
-          if (evt.address.address.Postal) {
-            str_complete_address += " " + evt.address.address.Postal;
-          }
+          //if (evt.address.address.Region) {
+          //  str_complete_address += evt.address.address.Region;
+          //}
+          //if (evt.address.address.Postal) {
+          //  str_complete_address += " " + evt.address.address.Postal;
+          //}
 
           this.div_reversed_address.innerHTML = str_complete_address;
           html.setStyle(this.div_reverse_geocoding, 'visibility', 'visible');
+          html.setStyle(this.div_info_menu, 'visibility', 'visible');
         }
       },
 
       _onAddressError: function() {
         this.div_reversed_address.innerHTML = this.nls.reverse_geocoded_error;
         html.setStyle(this.div_reverse_geocoding, 'visibility', 'visible');
+        html.setStyle(this.div_info_menu, 'visibility', 'visible');
       },
 
       // buffer incident

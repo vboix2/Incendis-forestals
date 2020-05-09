@@ -10,7 +10,97 @@
     {
       "layerId": "Incendis_forestals_9324",
       "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/Incendis_forestals/FeatureServer/0",
-      "name": "Incendis per data",
+      "name": "Incendis forestals entre dates",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "DATA",
+              "label": "DATA",
+              "dateFormat": "shortDateLE",
+              "shortType": "date",
+              "type": "esriFieldTypeDate"
+            },
+            "operator": "dateOperatorIsAfter",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Posteriors a",
+              "hint": "",
+              "cascade": "none",
+              "virtualDates": [
+                "custom"
+              ]
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "DATA",
+              "label": "DATA",
+              "dateFormat": "shortDateLE",
+              "shortType": "date",
+              "type": "esriFieldTypeDate"
+            },
+            "operator": "dateOperatorIsBefore",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Anteriors a",
+              "hint": "",
+              "cascade": "none",
+              "virtualDates": [
+                "custom",
+                "today"
+              ]
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Incendis_forestals_9324",
+      "url": "https://services8.arcgis.com/2imJz6WKHK8g7CuP/arcgis/rest/services/Incendis_forestals/FeatureServer/0",
+      "name": "Incendis per any i mes",
       "filter": {
         "logicalOperator": "AND",
         "parts": [

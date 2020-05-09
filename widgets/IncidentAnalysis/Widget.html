@@ -4,7 +4,7 @@
     <div data-dojo-attach-point="panelContainer" class="panelContainer">
       <!-- Panel Incident -->
       <div id="tabPanel0" class="IMT_tabPanel">
-        <div class="IMT_tabPanelContent" style="width: 660px">
+        <div class="IMT_tabPanelContent" style="width: 880px">
           <div id="incidentsLocate" class="IMTcol">
             <div data-dojo-attach-point="locate_lbl" class="label">
               ${nls.locate_incident}
@@ -29,10 +29,13 @@
           </div>
           <div data-dojo-attach-point="div_reverse_geocoding" class="IMTcol" style="visibility:hidden">
             <div class="label">
-              ${nls.reverse_geocoded_address}
+              3. ${nls.reverse_geocoded_address}
             </div>
             </br>
             <div class="label" style="width:100%;" data-dojo-attach-point="div_reversed_address"></div>
+          </div>
+          <div data-dojo-attach-point="div_info_menu" class="IMTcol" style="visibility:hidden">
+            <div class="label">4. Navega pel menú inferior<br/>per obtenir dades de<br/>la zona seleccionada.</div>
           </div>
         </div>
       </div>

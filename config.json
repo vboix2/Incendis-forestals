@@ -87,7 +87,7 @@
         "placeholderIndex": 1,
         "id": "_5",
         "name": "Summary",
-        "label": "Resum d'incendis forestals",
+        "label": "Resum dels incendis forestals visibles per pantalla",
         "version": "2.15",
         "closeable": true,
         "uri": "widgets/Summary/Widget",

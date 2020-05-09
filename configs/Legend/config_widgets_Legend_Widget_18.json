@@ -15,10 +15,10 @@
       "selected": true
     },
     "XEMA_6372": {
-      "selected": false
+      "selected": true
     },
     "Aigua_9752": {
-      "selected": false
+      "selected": true
     },
     "Rius_2163": {
       "selected": false
@@ -57,6 +57,9 @@
       "selected": false
     },
     "wms_4586": {
+      "selected": false
+    },
+    "XDDE": {
       "selected": false
     }
   },

@@ -58,7 +58,8 @@ define(['dojo/_base/declare',
           fields: [{ name: "latitude", type: "Number" },
           { name: "longitude", type: "Number" }],
           id: "XDDE",
-          visible: false
+          visible: false,
+          name: "Llamps núvol-terra"
         });
         var blue = new Color([20, 20, 200, 0.8]);
         var marker = new SimpleMarkerSymbol("solid", 5, null, blue);
