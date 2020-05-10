@@ -7,7 +7,8 @@ define({
       burnsLabel: "Prescribed burns",
       head2Label: "Wildfire risk",
       zhrLabel: "Homogeneous areas of fire regime",
-      riskLabel: "Static wildfire risk"
+      riskLabel: "Static wildfire risk",
+      legend: "Legend"
     }),
     "ca": 1,
     "es": 1

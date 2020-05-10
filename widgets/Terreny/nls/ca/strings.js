@@ -16,5 +16,6 @@ define({
     "option5": "Fracció de cabuda coberta",
     "option6": "Alçada mitjana",
     "option7": "Volum amb escorça",
-    "infoLabel": "Visible només per a escales grans"
+    "infoLabel": "Visible només per a escales grans",
+    "legend": "Llegenda"
   });

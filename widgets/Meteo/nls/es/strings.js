@@ -30,5 +30,6 @@ define({
   "table_wind": "Intensidad máxima del viento",
   "text_station1": "Datos de la estación ",
   "text_station2": " durante el día ",
-  "_featureAction_GetMeteo": "Situación meteorológica"
+  "_featureAction_GetMeteo": "Situación meteorológica",
+  "legend": "Leyenda"
 });

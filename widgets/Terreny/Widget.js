@@ -1,8 +1,11 @@
 
 define(['dojo/_base/declare',
-  'jimu/BaseWidget'
+  'jimu/BaseWidget',
+  'dojo/_base/html',
+  'esri/dijit/Legend',
+  'dojo/i18n!./nls/strings',
 ],
-function(declare, BaseWidget,) {
+function(declare, BaseWidget, html, Legend, Strings) {
   var clazz = declare([BaseWidget], {
 
     name: 'Terreny',
@@ -17,7 +20,11 @@ function(declare, BaseWidget,) {
     vegetacio: null,
     capesVegetacio: {"0":"AB", "1":"BAT", "2":"BF", "3":"CAT", "4":"DBHm","5":"FCC", "6":"Hmitjana", "7":"VAE"},
 
+    legend: null,
+    legendLayers: null,
+
     postCreate: function(){
+      // Layers
       this.usos = this.map.getLayer("TeselaEspana_WFL1_2468");
       this.aigua = this.map.getLayer("Aigua_9752");
       this.rius = this.map.getLayer("Rius_2163");
@@ -25,6 +32,25 @@ function(declare, BaseWidget,) {
       this.elevacio = this.map.getLayer("wms_4586");
       this.inflamabilitat = this.map.getLayer("wms_377");
       this.vegetacio = this.map.getLayer("wms_463");
+
+      // Legend
+      this.legendLayers = [
+        {layer: this.aigua, title: Strings.waterLabel},
+        {layer:this.orientacions, title: Strings.orientationLabel},
+        {layer:this.elevacio, title: Strings.elevationLabel},
+        {layer:this.inflamabilitat, title: Strings.flamLabel},
+        {layer:this.vegetacio, title: Strings.treesLabel}
+      ];
+      var legendParams = {
+        autoUpdate: true,
+        map: this.map,
+        layerInfos: this.legendLayers
+      };
+      this.legend = new Legend(legendParams, html.create("div", {}, this.legendDiv));
+    },
+
+    onOpen: function(){
+      this.legend.startup();
     },
 
     BotoUsos: function(){

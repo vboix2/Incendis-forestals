@@ -16,5 +16,6 @@ define({
   "option5": "Fracción de cabida cubierta",
   "option6": "Altura media",
   "option7": "Volumen con corteza",
-  "infoLabel": "Visible solamente para escalas grandes"
+  "infoLabel": "Visible solamente para escalas grandes",
+  "legend": "Leyenda"
 });

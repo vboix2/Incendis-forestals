@@ -5,9 +5,11 @@ define(['dojo/_base/declare',
   'esri/layers/CSVLayer',
   'esri/Color',
   'esri/symbols/SimpleMarkerSymbol',
-  'esri/renderers/SimpleRenderer'
+  'esri/renderers/SimpleRenderer',
+  'esri/dijit/Legend',
+  'dojo/_base/html',
 ],
-  function (declare, BaseWidget, Strings, CSVLayer, Color, SimpleMarkerSymbol, SimpleRenderer) {
+  function (declare, BaseWidget, Strings, CSVLayer, Color, SimpleMarkerSymbol, SimpleRenderer, Legend, html) {
     var clazz = declare([BaseWidget], {
 
       name: 'Meteo',
@@ -42,6 +44,9 @@ define(['dojo/_base/declare',
       variable: "temp",
       period: "0",
 
+      // Legend
+      legend: null,
+
       postCreate: function () {
         this.inherited(arguments);
         //Layers
@@ -69,6 +74,27 @@ define(['dojo/_base/declare',
 
         // set metadata
         this.metadadesMeteo.innerHTML = Strings.info_text;
+
+        // Legend
+        var legendLayers = [
+          {layer: this.XEMA, title: Strings.layer_xema},
+          {layer: this.XDDE, title: Strings.layer_xdde},
+          {layer: this.weather, title: Strings.layer_weather},
+          {layer: this.tempAnual, title: Strings.layer_temp},
+          {layer: this.precAnual, title: Strings.layer_prec}
+        ];
+
+        var legendParams = {
+          autoUpdate: true,
+          map: this.map,
+          layerInfos: legendLayers
+        };
+        this.legend = new Legend(legendParams, html.create("div", {}, this.legendDiv));
+
+      },
+
+      onOpen: function(){
+        this.legend.startup();
       },
 
       weatherBtn: function () {

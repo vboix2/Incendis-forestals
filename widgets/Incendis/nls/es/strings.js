@@ -6,5 +6,6 @@ define({
     "burnsLabel": "Quemas prescritas",
     "head2Label": "Riesgo de incendio",
     "zhrLabel": "Zonas homogéneas de régimen de incendio",
-    "riskLabel": "Riesgo estático de incendio forestal"
+    "riskLabel": "Riesgo estático de incendio forestal",
+    "legend": "Leyenda"
 });

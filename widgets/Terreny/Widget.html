@@ -15,7 +15,9 @@
 
       <input type="checkbox" id="elevacions" data-dojo-type="dijit/form/CheckBox"
       data-dojo-attach-event="onChange: BotoElevacions">
-      <label for="elevacions"> ${nls.elevationLabel}*</label><br/><br/>
+      <label for="elevacions"> ${nls.elevationLabel}*</label>
+      <p>* ${nls.infoLabel}</p>
+      <br/>
 
       <h2>${nls.vegetationLabel}</h2>
 
@@ -36,7 +38,10 @@
             <option value="5">${nls.option5}</option>
             <option value="6">${nls.option6}</option>
             <option value="7">${nls.option7}</option>
-      </select>
-      <br/>
-      <p>* ${nls.infoLabel}</p>
+      </select>      
+      <br/><br/>
+
+      <h2>${nls.legend}</h2>
+
+      <div data-dojo-attach-point="legendDiv"></div>
 </div>
