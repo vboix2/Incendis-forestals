@@ -96,11 +96,14 @@ function(declare, BaseWidget, html, Legend, Strings) {
     },
 
     BotoVegetacio: function(){
-      this.vegetacio.hide();
+    
       if (!this.vegetacio.visible){
         var valor = this.variables.value;
         this.vegetacio.setVisibleLayers([this.capesVegetacio[valor]]);
         this.vegetacio.show();
+      } else {
+        this.vegetacio.setVisibleLayers();
+        this.vegetacio.hide();
       }
     },
 
