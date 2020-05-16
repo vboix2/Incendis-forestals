@@ -308,7 +308,7 @@ define([
       var total = 0;
       var tpc = domConstruct.create("div", {
         id: "tpc",
-        style: "width:" + (numberOfDivs * 220) + "px;"
+        style: "width:" + (numberOfDivs * 250) + "px;"
       }, this.container);
       domClass.add(tpc, "IMT_tabPanelContent");
 

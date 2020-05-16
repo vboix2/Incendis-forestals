@@ -9,7 +9,7 @@
     "value": "weather",
     "url": "http://coolmaps.esri.com/Weather/info.php?v=1"
   },
-  "bufferLabel": "2. Àrea d'influència",
+  "bufferLabel": "2. Ajusta l'àrea d'influència",
   "bufferRange": {
     "minimum": 1,
     "maximum": 5
@@ -25,7 +25,7 @@
   },
   "maxDistance": "80",
   "defaultZoomLevel": 13,
-  "disableLayerManagement": false,
+  "disableLayerManagement": true,
   "tabs": [
     {
       "label": "Weather",
@@ -97,7 +97,7 @@
       }
     },
     {
-      "label": "Incendis anteriors",
+      "label": "Incendi més proper",
       "type": "closest",
       "layers": "Incendis_forestals_9324",
       "title": "Incendis forestals",
@@ -121,6 +121,6 @@
     }
   ],
   "incidentLabel": "Localització",
-  "locateLabel": "1. Localitza l'incendi",
+  "locateLabel": "1. Selecciona una zona del territori",
   "celsius": true
 }

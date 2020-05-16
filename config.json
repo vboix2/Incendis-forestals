@@ -102,7 +102,7 @@
         "placeholderIndex": 1,
         "id": "_6",
         "name": "IncidentAnalysis",
-        "label": "Anàlisi d'incendis",
+        "label": "Anàlisi dels factors d'incendi al territori",
         "version": "2.15",
         "closeable": true,
         "uri": "widgets/IncidentAnalysis/Widget",
