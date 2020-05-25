@@ -19,7 +19,7 @@ Aquest projecte és el resultat del Treball Final del [Màster Universitari en C
 
 * **Focs actius**: [Fire information for resource Management System (NASA). Web Services](https://firms.modaps.eosdis.nasa.gov/web-services/)
 
-* **Incendis forestals**: [Departament d'Agricultura, Ramaderia, Pesa i Alimentació. Base cartogràfica d'incendis forestals](http://agricultura.gencat.cat/ca/serveis/cartografia-sig/bases-cartografiques/boscos/incendis-forestals/incendis-forestals-format-shp/)
+* **Incendis forestals**: [Departament d'Agricultura, Ramaderia, Pesca i Alimentació. Base cartogràfica d'incendis forestals](http://agricultura.gencat.cat/ca/serveis/cartografia-sig/bases-cartografiques/boscos/incendis-forestals/incendis-forestals-format-shp/)
 
 * **Cremes prescrites**: [Departament d'Interior. Cremes prescrites Bombers Catalunya 1998-2015](https://analisi.transparenciacatalunya.cat/Medi-Ambient/Cremes-Prescrites-Bombers-Catalunya-1998-2015/k2qh-v6rz)
 
