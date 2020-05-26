@@ -1,16 +1,12 @@
 # Incendis forestals a Catalunya
 
-
-
-El [visor d'incendis forestals de Catalunya]((https://storage.googleapis.com/incendis/index.html)) permet consultar en un mapa interactiu les dades dels incendis forestals produïts a Catalunya des del 1986. Aquestes dades es poden consultar juntament amb altres paràmetres com el risc d'incendi, la topografia, la vegetació i la meteorologia.
-El visor també permet obtenir dades a temps real dels focs actius, la meteorologia i els llamps.
+El [visor d'incendis forestals de Catalunya]((https://storage.googleapis.com/incendis/index.html)) permet consultar en un mapa interactiu les dades dels incendis forestals produïts a Catalunya des del 1986. Aquestes dades es poden visualitzar juntament amb altres paràmetres com el risc d'incendi, la topografia, la vegetació i la meteorologia. El visor també permet obtenir dades a temps real dels focs actius, la meteorologia i els llamps.
 
 [![Imatge del visor d'incendis forestals](./images/Visor.png)](https://storage.googleapis.com/incendis/index.html)
 
 El [mapa web](https://www.arcgis.com/home/webmap/viewer.html?webmap=52430fa6fb14425cad22888102aaf712) s'ha creat amb [ArcGIS Online](https://www.arcgis.com/) i l'aplicació s'ha desenvolupat amb [Web AppBuilder](https://developers.arcgis.com/web-appbuilder/). Els *widgets* [Incendis](https://github.com/vboix2/Incendis-forestals/tree/master/widgets/Incendis), [Terreny](https://github.com/vboix2/Incendis-forestals/tree/master/widgets/Terreny) i [Meteo](https://github.com/vboix2/Incendis-forestals/tree/master/widgets/Meteo) s'han desenvolupat a partir de l'[API d'ArcGIS per JavaScript](https://developers.arcgis.com/javascript/3/).
 
 Aquest projecte és el resultat del Treball Final del [Màster Universitari en Ciència de Dades de la UOC](https://estudis.uoc.edu/ca/masters-universitaris/data-science/presentacio).
-
 
 
 ## Fonts de dades
