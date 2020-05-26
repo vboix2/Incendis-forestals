@@ -81,7 +81,9 @@ define(['dojo/_base/declare',
           {layer: this.XDDE, title: Strings.layer_xdde},
           {layer: this.weather, title: Strings.layer_weather},
           {layer: this.tempAnual, title: Strings.layer_temp},
-          {layer: this.precAnual, title: Strings.layer_prec}
+          {layer: this.tempMensual, title: Strings.layer_temp},
+          {layer: this.precAnual, title: Strings.layer_prec},
+          {layer: this.precMensual, title: Strings.layer_prec}
         ];
 
         var legendParams = {
