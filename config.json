@@ -26,7 +26,12 @@
   "keepAppState": true,
   "logo": "",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
-  "links": [],
+  "links": [
+    {
+      "label": "Documentació i ajuda",
+      "url": "https://github.com/vboix2/Incendis-forestals/wiki"
+    }
+  ],
   "widgetOnScreen": {
     "widgets": [
       {
