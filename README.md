@@ -1,6 +1,6 @@
 # Incendis forestals a Catalunya
 
-El [visor d'incendis forestals de Catalunya]((https://storage.googleapis.com/incendis/index.html)) permet consultar en un mapa interactiu les dades dels incendis forestals produïts a Catalunya des del 1986. Aquestes dades es poden visualitzar juntament amb altres paràmetres com el risc d'incendi, la topografia, la vegetació i la meteorologia. El visor també permet obtenir dades a temps real dels focs actius, la meteorologia i els llamps.
+El [visor d'incendis forestals de Catalunya](https://storage.googleapis.com/incendis/index.html) permet consultar en un mapa interactiu les dades dels incendis forestals produïts a Catalunya des del 1986. Aquestes dades es poden visualitzar juntament amb altres paràmetres relacionats amb el risc d'incendi, la topografia, la vegetació i la meteorologia. El visor també permet obtenir dades a temps real dels focs actius, la meteorologia i els llamps.
 
 [![Imatge del visor d'incendis forestals](./images/Visor.png)](https://storage.googleapis.com/incendis/index.html)
 
@@ -17,7 +17,7 @@ Aquest projecte és el resultat del Treball Final del [Màster Universitari en C
 
 * **Incendis forestals**: [Departament d'Agricultura, Ramaderia, Pesca i Alimentació. Base cartogràfica d'incendis forestals](http://agricultura.gencat.cat/ca/serveis/cartografia-sig/bases-cartografiques/boscos/incendis-forestals/incendis-forestals-format-shp/)
 
-* **Cremes prescrites**: [Departament d'Interior. Cremes prescrites Bombers Catalunya 1998-2015](https://analisi.transparenciacatalunya.cat/Medi-Ambient/Cremes-Prescrites-Bombers-Catalunya-1998-2015/k2qh-v6rz)
+* **Cremes prescrites**: [Dades Obertes Catalunya: Departament d'Interior. Cremes prescrites Bombers Catalunya 1998-2015](https://analisi.transparenciacatalunya.cat/Medi-Ambient/Cremes-Prescrites-Bombers-Catalunya-1998-2015/k2qh-v6rz)
 
 * **Zones homogènies de règim d'incendis**: [Departament d'Interior. Arxiu de les zones homogènies de règim d'incendis forestals](https://interior.gencat.cat/ca/serveis/informacio-geografica/bases-cartografiques/zones-homogenies-de-regim-dincendis-forestals/)
 
@@ -44,11 +44,11 @@ Aquest projecte és el resultat del Treball Final del [Màster Universitari en C
 
 * **Llamps núvol-terra**: [Servei Meteorològic de Catalunya. API de Dades Meteorològiques, Dades de la Xarxa de Detecció de Descàrregues Elèctriques](https://apidocs.meteocat.gencat.cat/)
 
-* **Estacions Meteorològiques (XEMA)**: [Servei Meteorològic de Catalunya. Metadades de la Xarxa d'Estacions Meteorològiques Automatitzades](https://analisi.transparenciacatalunya.cat/Medi-Ambient/Metadades-estacions-meteorol-giques-autom-tiques/yqwd-vj5e/data)
+* **Estacions Meteorològiques (XEMA)**: [Dades Obertes Catalunya: Servei Meteorològic de Catalunya. Metadades de la Xarxa d'Estacions Meteorològiques Automatitzades](https://analisi.transparenciacatalunya.cat/Medi-Ambient/Metadades-estacions-meteorol-giques-autom-tiques/yqwd-vj5e/data)
 
 * **Mapes climàtics**: [Departament de Territori i Sostenibilitat. Serveis web geogràfics: Atmosfera, qualitat de l'aire i climatologia](http://territori.gencat.cat/ca/01_departament/12_cartografia_i_toponimia/serveis_web_geografics/#bloc2)
 
-* **Situació meteorològica dels incendis**: [Servei Meteorològica de Catalunya. Dades meteorològiques de la XEMA](https://analisi.transparenciacatalunya.cat/Medi-Ambient/Dades-meteorol-giques-de-la-XEMA/nzvn-apee/data)
+* **Situació meteorològica dels incendis**: [Dades Obertes Catalunya: Servei Meteorològica de Catalunya. Dades meteorològiques de la XEMA](https://analisi.transparenciacatalunya.cat/Medi-Ambient/Dades-meteorol-giques-de-la-XEMA/nzvn-apee/data)
 
 
 
